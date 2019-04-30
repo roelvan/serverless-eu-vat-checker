@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "name": "vat-checker",
+  "regions": [
+    "bru1"
+  ],
+  "builds": [
+    {
+      "src": "*.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "methods": [
+        "GET",
+        "OPTIONS"
+      ],
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      },
+      "dest": "/index.js?vat=$1"
+    }
+  ]
+}
