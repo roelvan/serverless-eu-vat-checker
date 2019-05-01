@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "vat-checker",
+  "alias": "validate-vat",
   "regions": [
     "bru1"
   ],
