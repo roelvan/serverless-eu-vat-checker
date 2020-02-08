@@ -19,7 +19,6 @@
         "OPTIONS"
       ],
       "headers": {
-        "Access-Control-Allow-Origin": "*",
         "cache-control": "s-maxage=86400, max-age=0"
       },
       "dest": "/index.js?vat=$1"
