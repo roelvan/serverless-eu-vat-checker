@@ -1,3 +1,3 @@
-This uses serverless endpoint uses controleerbtwnummer.eu under the hood.
+This serverless endpoint uses controleerbtwnummer.eu under the hood.
 
 Deploy with Now: `now`
