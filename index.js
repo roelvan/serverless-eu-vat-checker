@@ -10,7 +10,7 @@ const handler = async (req, res) => {
   // remove spaces and other weird chars
   const vatNr = vat.replace(/[. ,:-]+/g, "");
   const response = await fetch(
-    `https://controleerbtwnummer.eu/api/validate/${vat}.json`
+    `https://controleerbtwnummer.eu/api/validate/${vatNr}.json`
   );
 
   return res.json(await response.json());
