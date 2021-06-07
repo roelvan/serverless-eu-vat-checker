@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "regions": [
-    "bru1"
-  ],
   "builds": [
     {
       "src": "index.js",
